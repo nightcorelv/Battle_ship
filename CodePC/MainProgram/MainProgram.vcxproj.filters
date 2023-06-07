@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Files">
+      <UniqueIdentifier>{150b10c6-fdc4-4969-9dd5-59b8623dc055}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Files\Game">
+      <UniqueIdentifier>{852c05ad-63cc-468a-b229-c36846215540}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Files\Ship">
+      <UniqueIdentifier>{9547001b-1dc4-410e-a291-f89380672ddd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Files\UI">
+      <UniqueIdentifier>{f4818e10-e729-4f8d-817f-5ec00ca87ebc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Files\General">
+      <UniqueIdentifier>{f1ac1b51-559a-49a6-998e-7422e94a81e2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Files\General</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleShip.cpp">
+      <Filter>Files\Ship</Filter>
+    </ClCompile>
+    <ClCompile Include="UiButton.cpp">
+      <Filter>Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ShipStats.cpp">
+      <Filter>Files\Ship</Filter>
+    </ClCompile>
+    <ClCompile Include="Ship.cpp">
+      <Filter>Files\Ship</Filter>
+    </ClCompile>
+    <ClCompile Include="Market.cpp">
+      <Filter>Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ShipHandler.cpp">
+      <Filter>Files\Ship</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Files\Ship</Filter>
+    </ClCompile>
+    <ClCompile Include="Explotion.cpp">
+      <Filter>Files\Ship</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Town.cpp">
+      <Filter>Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Background.cpp">
+      <Filter>Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveLoad.cpp">
+      <Filter>Files\General</Filter>
+    </ClCompile>
+    <ClCompile Include="FightMenu.cpp">
+      <Filter>Files\UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Entity.h">
+      <Filter>Files\General</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleShip.h">
+      <Filter>Files\Ship</Filter>
+    </ClInclude>
+    <ClInclude Include="UiButton.h">
+      <Filter>Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ShipStats.h">
+      <Filter>Files\Ship</Filter>
+    </ClInclude>
+    <ClInclude Include="Ship.h">
+      <Filter>Files\Ship</Filter>
+    </ClInclude>
+    <ClInclude Include="Market.h">
+      <Filter>Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ShipHandler.h">
+      <Filter>Files\Ship</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Files\Ship</Filter>
+    </ClInclude>
+    <ClInclude Include="Explotion.h">
+      <Filter>Files\Ship</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Town.h">
+      <Filter>Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Background.h">
+      <Filter>Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveLoad.h">
+      <Filter>Files\General</Filter>
+    </ClInclude>
+    <ClInclude Include="FightMenu.h">
+      <Filter>Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="List.h" />
+  </ItemGroup>
+</Project>
